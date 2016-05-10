@@ -92,7 +92,7 @@
 		/// </summary>
 		private static void HandleFile()
 		{
-			string[] content = File.ReadAllLines(programPath);
+			string[] content = File.ReadAllLines(givenPath);
 
 			var parser = new Parser();
 			parser.Content = content;
